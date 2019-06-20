@@ -26,11 +26,13 @@ Use any of our free example puppets in your own creations, or take them apart to
   [Download](https://shared-assets.adobe.com/link/ec760910-0f77-432b-7251-30600a749758)
 
 
-
+---
+class: section textimage    
 ---
 
 #### What is a puppet.
 Use any of our free example puppets in your own creations, or take them apart to learn new techniques.
+
 ![](imgs/whatisapuppet.png "")
 
 

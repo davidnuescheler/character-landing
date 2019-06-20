@@ -284,13 +284,20 @@ footer div.section:nth-child(2)>ul {
                          "c d";
     
 }
+div.section.default {
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+
 div.section.default ul {
     list-style: none;
     text-align: center;
 }
 
-div.section.default {
-    color: black;
+
+div.section.default>p>img {
+    grid-area: img;
 }
 
 div.section.default ul li>p:first-child{
