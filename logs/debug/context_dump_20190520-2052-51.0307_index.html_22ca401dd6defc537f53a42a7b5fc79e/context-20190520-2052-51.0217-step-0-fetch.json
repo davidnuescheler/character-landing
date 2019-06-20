@@ -1,0 +1,30 @@
+{
+  "request": {
+    "params": {},
+    "headers": {
+      "x-openwhisk-activation-id": "22ca401dd6defc537f53a42a7b5fc79e",
+      "x-request-id": "g6nBG147kM2QZITcrafTLbIL/RDhYx4m",
+      "x-backend-name": "localhost--F_Petridish",
+      "x-cdn-request-id": "edcff7b3-4214-e953-2b59-5b41c83d50ad",
+      "x-strain": "default",
+      "x-old-url": "/",
+      "x-repo-root-path": "",
+      "host": "localhost:3000",
+      "connection": "keep-alive",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en-US,en;q=0.9,de;q=0.8,fr;q=0.7",
+      "cookie": "fornax_anonymousId=21f37fe8-137d-4991-b3fc-9e300f1c4a91; _ga=GA1.1.680865768.1519768655; mbox=session%23154d1eb45596428882b37b9189a2bd0c%231550083012%7CPC%23154d1eb45596428882b37b9189a2bd0c.28_57%231613325952",
+      "if-none-match": "W/\"14d2-4T0Iq80j6/Ut+zXOYWBGSN7lkJs\""
+    },
+    "method": "get",
+    "path": "/index.html",
+    "extension": "html",
+    "selector": "",
+    "url": "/index.html",
+    "rootPath": "",
+    "pathInfo": "/index.html"
+  }
+}
