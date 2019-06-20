@@ -17,12 +17,12 @@
  body {
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: #eee;
     font-family: 'adobe-clean', sans-serif;
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.5;
-    color: white;
+    color: black;
 }
 
 .title {
@@ -119,7 +119,9 @@ h2 {
 
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
 }
 
 h4 {
@@ -282,6 +284,59 @@ footer div.section:nth-child(2)>ul {
                          "c d";
     
 }
+div.section.default ul {
+    list-style: none;
+    text-align: center;
+}
+
+div.section.default {
+    color: black;
+}
+
+div.section.default ul li>p:first-child{
+    margin: 0;
+}
+
+div.section.default li {
+    display: inline-block;
+    width: 220px;
+    background: white;
+    color: black;
+    margin: 10px 10px;
+    text-align: left;
+
+}
+
+div.section.default li img {
+    width: 220px;
+}
+
+div.section.default li h4 {
+    margin: 23px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+}
+
+div.section.default li p {
+    margin: 5px 23px;
+    font-size: 11px;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+    font-style: normal;
+}
+
+div.section.default li p:nth-child(4) a {
+    background-color: rgba(20,115,230,1);
+    border-radius: 100px;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px 0;
+    display: inline-block;
+    font-size: 13px;
+}
 
 
 @media (min-width:600px) {
@@ -312,9 +367,6 @@ footer div.section:nth-child(2)>ul {
         font-size: 3.5rem;
     }
 
-    h3 {
-        font-size: 2.75rem;
-    }
     
     h4 {
         font-size: 1.75rem;
