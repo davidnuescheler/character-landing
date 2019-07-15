@@ -230,7 +230,7 @@ header a:any-link{
     font-weight: 100;
 }
 
-header .section:nth-child(2) {
+header div:nth-child(2) {
     display: none;
     position: fixed;
     width: 100vw;
@@ -243,7 +243,7 @@ header .section:nth-child(2) {
 
 }
 
-header .section:nth-child(2)>p {
+header div:nth-child(2)>p {
     display: block;
     float: right;
     font-size: 1.8em;
@@ -278,19 +278,19 @@ footer ul {
 }
 
 
-footer div.section:nth-child(2)>ul {
+footer div:nth-child(2)>ul {
     display: grid;
     grid-template-areas: "a b" 
                          "c d";
     
 }
-div.section.default {
+div.default {
     margin: auto;
     max-width: 995px;
     text-align: center;
 }
 
-div.section.default ul {
+div.default ul {
     list-style: none;
     text-align: center;
     margin: 0;
@@ -298,15 +298,15 @@ div.section.default ul {
 }
 
 
-div.section.default>p>img {
+div.default>p>img {
     grid-area: img;
 }
 
-div.section.default ul li>p:first-child{
+div.default ul li>p:first-child{
     margin: 0;
 }
 
-div.section.default li {
+div.default li {
     display: inline-block;
     width: 294px;
     background: white;
@@ -316,18 +316,18 @@ div.section.default li {
 
 }
 
-div.section.default li img {
+div.default li img {
     width: 294px;
 }
 
-div.section.default li h4 {
+div.default li h4 {
     margin: 23px;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
 }
 
-div.section.default li p {
+div.default li p {
     margin: 5px 23px;
     font-size: 16px;
     color: rgb(112, 112, 112);
@@ -335,7 +335,7 @@ div.section.default li p {
     font-style: normal;
 }
 
-div.section.default li p:nth-child(4) a {
+div.default li p:nth-child(4) a {
     background-color: rgba(20,115,230,1);
     border-radius: 100px;
     padding: 5px 20px;
@@ -355,11 +355,11 @@ div.section.default li p:nth-child(4) a {
         grid-template-areas: "a b"; 
     }
 
-    .main .section {
+    .main div {
         display: inline-block;
     }
     
-    footer div.section:nth-child(2)>ul {
+    footer div:nth-child(2)>ul {
         grid-template-areas: "a b c d"
     }
 
@@ -393,7 +393,7 @@ div.section.default li p:nth-child(4) a {
 }
 
 @media (min-width:900px) {
-    .main, footer .section {
+    .main, footer div {
         width: 800px;
         margin: auto;
     }
