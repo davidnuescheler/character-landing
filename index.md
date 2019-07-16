@@ -27,7 +27,7 @@ Use any of our free example puppets in your own creations, or take them apart to
 
 
 ---
-class: section textimage    
+class: textimage    
 ---
 
 #### What is a puppet.
